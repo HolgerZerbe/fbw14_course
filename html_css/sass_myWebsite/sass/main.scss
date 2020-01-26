@@ -1,0 +1,228 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+$text-dark: #333;
+$farbe: #eee;
+
+@mixin div-link($farbe) {
+    width: 30%;
+    height: 250px;
+    border: 3px solid black;
+    margin: 5px;
+    background-color: $farbe;
+    text-align: center;
+    line-height: 250px;
+}
+
+@mixin foto {
+    width: 30%;
+    height: 250px;
+    border: 3px solid black;
+    margin: 5px;
+    background-color: greenyellow;
+}
+
+
+@mixin clearfix {
+    &::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+}
+
+@mixin style-link($farbe) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $farbe;
+}
+
+.container {
+    background-image: url(../images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    margin: 30px;
+    @include clearfix;
+
+    .navigation {
+        list-style: none;
+        float: right;
+
+        ul {
+            padding-inline-start: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 30px;
+            padding: 10px;
+            font-size: 30px;
+            background-color: rgba(255, 255, 255, 0.4);
+
+
+            a:link {
+                @include style-link($text-dark);
+            }
+
+            a:visited {
+                @include style-link($text-dark);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.main {
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    .foto {
+        @include foto;
+    }
+
+    .div-link {
+        @include div-link($farbe);
+
+    }
+
+    a {
+        font-size: 25px;
+    }
+
+    a:link {
+        @include style-link($text-dark);
+    }
+
+    a:visited {
+        @include style-link($text-dark);
+    }
+}
+
+
+.hobbies-main {
+    height: 90%;
+
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .dog {
+        max-width: 1000px;
+        font-size: 25px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.4);
+        margin: 0 auto;
+    }
+}
+
+
+
+.about-main {
+    width: 100%;
+
+    img {
+        width: 50%;
+        float: right;
+        padding: 10px;
+
+    }
+
+    .about-text {
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.4);
+        padding: 10px;
+
+
+    }
+
+}
+
+.skills-main {
+    h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        text-align: center;
+        padding-inline-start: 0;
+    }
+
+    li {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    nav {
+        margin: 0;
+
+
+        .navigation {
+            display: flex;
+            flex-direction: column;
+
+            li {
+                border-bottom: 1px solid black;
+                text-align: center;
+                a {
+                    display: block;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .main {
+        flex-direction: row;
+
+        .foto {
+            width: 90%;
+        }
+
+        .div-link {
+            width: 90%;
+        }
+    }
+
+    .about-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+       margin: 0 auto;
+    }
+
+    .hobbies-main{
+
+        .dog {
+            margin: 0 auto;
+            max-width: 300px;
+        }
+        img {
+            max-width: 300px;
+        }
+    }
+}

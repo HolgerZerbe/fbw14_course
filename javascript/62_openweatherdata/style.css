@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, button {
+    display: block;
+    margin: 10px auto;
+    text-align:center; 
+    padding: 10px;
+    font-size: 20px;     
+}
+button {
+    background: burlywood;
+}
+
+.townBoxWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.townBox {
+    width: 30%;
+    height: 150px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+
+}
+
+.townBox h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.townBox p {
+    height: 50px;
+    line-height: 50px;
+}
+
+.degree {
+    font-weight: bold;
+}
+.description {
+    float: left;
+}
+
+.foto {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

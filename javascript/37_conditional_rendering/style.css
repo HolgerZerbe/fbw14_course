@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 80px;
+    line-height: 80px;
+    background: cornflowerblue;
+    padding-left: 10px;
+}
+
+span:hover {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.content {
+    padding: 4px;
+    font-size: 1.1em;
+}
+
+#info, #impressum {
+    display: none;
+}

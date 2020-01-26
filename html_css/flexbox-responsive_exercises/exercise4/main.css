@@ -1,0 +1,61 @@
+html,
+body,
+header,
+article,
+aside,
+footer {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+display: flex;
+flex-flow: row wrap;
+
+}
+header {
+    background-color: orange;
+    width: 100%;
+    order: 0;
+}
+
+article {
+    background-color: royalblue;
+    padding: 0 10px;
+    text-align: justify;
+
+}
+
+.aside__1 {
+    background-color: gold;
+
+}
+
+.aside__2 {
+    background-color: palevioletred;
+
+}
+
+footer {
+    background-color: lightgreen;
+    width: 100%;
+    order: 4;
+}
+
+header,
+article,
+aside,
+footer {
+    color: black;
+    font-weight: bold;
+}
+
+header,
+aside,
+footer {
+    padding: 10px 0;
+    text-align: center;
+}

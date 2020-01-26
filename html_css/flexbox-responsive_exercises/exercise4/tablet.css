@@ -1,0 +1,10 @@
+@media only screen and (min-width:601px) and (max-width: 800px) {
+    article {
+        width: 100%;
+        order: 1;
+    }
+    .aside__1, .aside__2 {
+        width: 50%;
+        order: 2;
+    }
+}

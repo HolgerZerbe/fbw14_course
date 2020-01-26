@@ -1,0 +1,7 @@
+Hallo,
+
+das ist ein Text. Ich werde ausgeben von dem FS-Modul.
+
+Viele Grüße,
+
+FBW-14

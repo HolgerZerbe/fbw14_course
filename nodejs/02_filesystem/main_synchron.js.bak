@@ -1,0 +1,1 @@
+"\"const fs = require(`fs`);\\n\\nhallo.log(`Hallo FS`);\\n\\n\\n// synchrones Öffnen\\nconst data = fs.readFileSync('./blabla.txt', 'utf-8');\\n\\n// hier wird gewartet\\nhallo.log(data);\\n\""

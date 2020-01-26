@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.around {
+    margin: 100px auto;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    flex-flow: wrap;
+    background: darkgrey;
+    justify-content: space-around;
+}
+
+h2 {
+    width: 100%;
+    text-align: center; 
+    font-size: 35px;
+}
+
+.boundpad {
+    margin: 25px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 50%;
+    
+}
+
+.boundpad:nth-child(odd) {
+    background: yellowgreen;
+
+}
+
+.boundpad:nth-child(even) {
+    background: darkgreen;
+}
+
+.boundpad:hover {
+    cursor: pointer;
+    background: red;
+
+}
+
+form {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+form div {
+    width: 100%;
+    height: 30px;   
+}
+form input {
+    width: 68%;
+    height: 25px
+}
+
+form button {
+    width: 30%;
+    height: 25px;
+}

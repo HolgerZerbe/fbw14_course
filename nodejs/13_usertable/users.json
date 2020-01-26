@@ -1,0 +1,49 @@
+[{
+    "id": 1,
+    "name": "Stefan",
+    "email": "stefan@abc.net",
+    "description": "Ick bin der Stefan und freu mich. Also bin ich.",
+    "profilePic": "stefan.jpeg"
+}, {
+    "id": 2,
+    "name": "Lara",
+    "email": "lara@gmx.net",
+    "description": "Ich bin die Lara und treffe mich mit Klara. Weil ich schon lang nicht mehr da war.",
+    "profilePic": "lara.jpeg"
+}, {
+    "id": 3,
+    "name": "Julia",
+    "email": "julia@gmail.com",
+    "description": "Ick bin die Julia und warte auf Romeo. Dann kann ich endlich auf Klo hiho.",
+    "profilePic": "julia.jpeg"
+}, {
+    "id": 4,
+    "name": "Karsten",
+    "email": "karsten@foo.net",
+    "description": "Ick bin der Karsten und habe warzen. Gehe erstmal zum Arzt.",
+    "profilePic": "karsten.jpeg"
+}, {
+    "id": 5,
+    "name": "Peter",
+    "email": "peter@xing.net",
+    "description": "Ick bin der Peter. Heute komme ich später.",
+    "profilePic": "peter.jpeg"
+}, {
+    "id": 6,
+    "name": "Steffi",
+    "email": "steffi@xing.net",
+    "description": "Ick bin die Steffi und bin voll happy. Heute trag ich nappy hair.",
+    "profilePic": "steffi.jpeg"
+}, {
+    "name": "Donald Duck",
+    "email": "dodu@entenhausen.de",
+    "description": "Ich bin der Neffe von Dagobert und der Onkel von Tick, Trick und Track.",
+    "profilePic": "donald.jpeg",
+    "id": "WqEZKMbW9y"
+}, {
+    "name": "Dagobert Duck",
+    "email": "dadu@entenhausen.com",
+    "description": "Money!!",
+    "profilePic": "dagobert.jpg",
+    "id": "8NPzJRkAXL"
+}]

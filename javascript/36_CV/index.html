@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>36_CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend> Put your details here! </legend>
+            <label for="name">Put your name here</label>
+            <input type="text" name="name" id="name" required>
+            <label for="birthday">Put your birthday here</label>
+            <input type="date" name="birthday" id="birthday" required>
+            <label for="photo">Upload a photo of yours</label>
+            <input type="file" name="photo" id="photo" required>
+            <div>
+                <label for="favcolor1">Pick the background-colour of your CV</label>
+                <input type="color" name="favcolor1" id="favcolor1" value="#ff0000">
+            </div>
+            <div>
+                <label for="favcolor2">Pick the font-colour of your CV</label>
+                <input type="color" name="favcolor2" id="favcolor2" value="#000000">
+            </div>
+
+            <textarea id="description" cols="50" rows="5" maxlength="140"
+                placeholder="Write a paragraph about yourself"required></textarea>
+
+            <h3>Type all you need in 140 characters</h3>
+
+            <div>
+                <p>Pick your Skills:</p>
+                <input type="checkbox" class="skills" value="Javascript">
+                Javascript
+            </div>
+            <div>
+                <input type="checkbox" class="skills" value="Ruby">
+                Ruby
+            </div>
+            <div>
+                <input type="checkbox" class="skills" value="Python">
+                Python
+            </div>
+            <div>
+                <input type="checkbox" class="skills" value="Java">
+                Java
+            </div>
+            <div>
+                <input type="checkbox" class="skills" value="PHP">
+                PHP
+            </div>
+
+
+        </fieldset>
+    </form>
+
+    <button id="create">Create CV</button>
+    <button id="reset">Reset Form</button>
+
+
+
+
+    <div id="cv">
+        <!-- <div class="lebenslauf">
+            <h1>Holger Beispiel</h1>
+
+            <h2>Holger Beispiel ist 50 Jahre alt</h2>
+
+            <div class="foto">
+            </div>
+
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, culpa in! Voluptatum velit eveniet
+                tempora est totam delectus animi aliquam fugit non. Qui iure, explicabo sequi, dolore debitis incidunt,
+                amet aut officia commodi quos nemo optio velit? Temporibus, recusandae nobis!
+            </h2>
+            <h4>The skills of _______________________ are: </h4>
+        </div> -->
+    </div>
+    <script src="main.js">
+    </script>
+
+</body>
+
+</html>

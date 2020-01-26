@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html {
+  height: 100%;
+}
+
+.fruit {
+  background-color: red;
+  text-align: center;
+  font-size: 25px;
+  margin: 5px;
+  padding: 20px;
+  color: rgb(219, 117, 70);  
+  font-weight: bold;
+  text-shadow:3px 3px 3px rgb(49, 78, 5);
+}
+
+.btn {
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  height: 50px;
+  font-size: 25px;
+}

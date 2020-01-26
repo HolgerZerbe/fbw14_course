@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2Style {
+  color: darkgreen;
+  background-color: yellowgreen;
+}
+
+#h2Style {
+  color: burlywood;
+  background-color: olivedrab ;
+}

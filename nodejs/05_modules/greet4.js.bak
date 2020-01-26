@@ -1,0 +1,1 @@
+"\"class Greeter {\\n    constructor() {\\n        this.greeting = \\\"Hallo von greet4.js\\\";\\n    }\\n\\n    greet() {\\n        hallo.log(this.greeting);\\n    }\\n}\\n\\nmodule.exports = Greeter;\""

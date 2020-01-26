@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    
+}
+
+#carousel {
+    width: 640px;
+    height: 410px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    background-size: contain;
+    /* width: 640px; */
+    /* height: 410px; */
+}
+
+#slider1, #slider2 {
+    height: 410px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    position: absolute;
+    line-height: 410px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 5;
+}
+
+#slider2 {
+    right: 0;
+}

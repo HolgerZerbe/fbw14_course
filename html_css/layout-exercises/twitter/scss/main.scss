@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+$main-color: blue;
+$box-color: linear-gradient(yellowgreen, yellow);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    .container {
+        height: 100vh;
+        width: 90%;
+        margin: 0 auto;
+
+        .nav {
+            border: 1px solid black;
+            height: 50px;
+            text-align: center;
+            font-size: 20px;
+            line-height: 50px;
+            background-image: $box-color;
+        }
+
+        .main {
+            min-height: 90%;
+            background: $main-color;
+            padding: 10px 50px;
+            display: flex;
+            justify-content: space-around;
+
+            .aside-left {
+                width: 24%;
+                border: 1px solid black;
+
+                .user {
+                    margin-bottom: 5px;
+                    background-image: $box-color;
+                    height: 150px;
+                    padding: 10px;
+                    text-align: center;
+                }
+
+                .trends {
+                    margin-bottom: 5px;
+                    background-image: $box-color;
+                    height: 250px;
+                    padding: 10px;
+                    text-align: center;
+                }
+            }
+
+            .middle {
+                width: 48%;
+                border: 1px solid black;
+
+                .search {
+                    background-image: $box-color;
+                    height: 50px;
+                    line-height: 50px;
+                    text-align: center;
+
+                }
+            }
+
+
+            .aside-right {
+                width: 24%;
+                border: 1px solid black;
+
+                .follow {
+                    height: 200px;
+                    background-image: $box-color;
+                    margin-bottom: 5px;
+                    padding: 10px;
+                    text-align: center;
+                }
+
+                .copyright {
+                    height: 100px;
+                    background-image: $box-color;
+                    padding: 10px;
+                    text-align: center;
+                }
+            }
+
+            .tweet {
+                background-image: $box-color;
+                margin-top: 3px;
+                height: 300px;
+                padding: 10px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        .container {
+            .main {
+                padding: 10px 0;
+
+                .aside-left {
+                    display: none;
+                }
+
+                .middle {
+
+                    width: 100%;
+
+                    .search {
+                        display: none;
+                    }
+                }
+
+                .aside-right {
+                    display: none;
+                }
+
+            }
+        }
+    }
+}

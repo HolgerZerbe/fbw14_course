@@ -1,0 +1,34 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(221, 177, 177); 
+    height: 800px;
+    background: rgb(67,10,261);
+}
+
+
+
+h1 {
+    text-align: center; 
+    line-height: 800px;
+    font-size: 100px;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: bold;
+
+    .nav-start {
+        color: goldenrod;
+    }
+    .nav-profile {
+        color: darkred;
+    }
+    .nav-logout {
+        color: black;
+    }
+}

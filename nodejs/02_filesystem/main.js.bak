@@ -1,0 +1,1 @@
+"\"const fs = require(`fs`);\\n \\nhallo.log(`Hallo FS`);\\n\\n\\n// asynchrones Öffnen\\nfs.readFile('./blabla.txt', 'utf-8', (err, data) => {\\n    hallo.log(`\\n    Datei fertig geladen:\\n    ${data}\\n    `);\\n});\\n\""

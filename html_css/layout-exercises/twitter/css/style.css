@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+  body .container {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto; }
+    body .container .nav {
+      border: 1px solid black;
+      height: 50px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 50px;
+      background-image: linear-gradient(yellowgreen, yellow); }
+    body .container .main {
+      min-height: 90%;
+      background: blue;
+      padding: 10px 50px;
+      display: flex;
+      justify-content: space-around; }
+      body .container .main .aside-left {
+        width: 24%;
+        border: 1px solid black; }
+        body .container .main .aside-left .user {
+          margin-bottom: 5px;
+          background-image: linear-gradient(yellowgreen, yellow);
+          height: 150px;
+          padding: 10px;
+          text-align: center; }
+        body .container .main .aside-left .trends {
+          margin-bottom: 5px;
+          background-image: linear-gradient(yellowgreen, yellow);
+          height: 250px;
+          padding: 10px;
+          text-align: center; }
+      body .container .main .middle {
+        width: 48%;
+        border: 1px solid black; }
+        body .container .main .middle .search {
+          background-image: linear-gradient(yellowgreen, yellow);
+          height: 50px;
+          line-height: 50px;
+          text-align: center; }
+      body .container .main .aside-right {
+        width: 24%;
+        border: 1px solid black; }
+        body .container .main .aside-right .follow {
+          height: 200px;
+          background-image: linear-gradient(yellowgreen, yellow);
+          margin-bottom: 5px;
+          padding: 10px;
+          text-align: center; }
+        body .container .main .aside-right .copyright {
+          height: 100px;
+          background-image: linear-gradient(yellowgreen, yellow);
+          padding: 10px;
+          text-align: center; }
+      body .container .main .tweet {
+        background-image: linear-gradient(yellowgreen, yellow);
+        margin-top: 3px;
+        height: 300px;
+        padding: 10px;
+        text-align: center; }
+
+@media only screen and (max-width: 480px) {
+  body .container .main {
+    padding: 10px 0; }
+    body .container .main .aside-left {
+      display: none; }
+    body .container .main .middle {
+      width: 100%; }
+      body .container .main .middle .search {
+        display: none; }
+    body .container .main .aside-right {
+      display: none; } }

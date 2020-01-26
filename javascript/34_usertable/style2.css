@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    margin-bottom: 10px;
+    height: 150px;
+    line-height: 150px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 3px solid darkslategrey;
+    background: slategrey;
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+main {
+    min-height: calc(100% - 150px - 10px);
+    box-sizing: border-box;
+    border: 3px solid darkslategrey;
+    background: slategrey;
+
+}
+
+main form {
+    margin: 20px auto 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#nameInput,
+#emailInput,
+#addNutzer {
+    width: 30%;
+    height: 35px;
+    font-size: 20px;
+    line-height: 35px;
+    border-style: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+#usertable {
+    width: 80%;
+    margin: 50px auto 0 auto;
+    border-collapse: collapse;
+    color: black;
+}
+
+.tablerow,
+.tableheadrow {
+    margin: 0 auto;
+    height: 35px;
+    font-size: 25px;
+    padding: 5px;
+    text-align: left;
+    color: black;
+}
+
+.tableheadrow {
+    background: rgb(40, 40, 231);
+    color: white;
+}
+
+.tablerow:nth-child(odd) {
+    background: rgb(159, 159, 177);
+}
+
+.tablerow:nth-child(even) {
+    background: rgb(179, 179, 194);
+}
+
+.tabledata {
+    border: 1px solid white;
+    width: 32%;
+    padding-left: 5px;
+}
+
+.tabledata:nth-child(4n+4) {
+    text-align: center;
+    width: 4%;
+}
+
+.tablerow .tabledata:nth-child(4n+4) {
+    background: red;
+}
+
+.tabledata button {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-style: none;
+    cursor: pointer;
+    background: transparent;
+    font-weight: bold;
+    font-size: 25px;
+}

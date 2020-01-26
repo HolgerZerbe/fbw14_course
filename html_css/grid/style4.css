@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 4 fr;
+    grid-template-rows: 7 fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.box1 {
+    background-color: yellow;
+    padding: 10px;
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.box2 {
+    background-color: red;
+    padding: 10px;
+    grid-column: 1;
+    grid-row: 2/5;
+}
+
+.box3 {
+    background-color: greenyellow;
+    padding: 10px;
+    grid-row: 1/5;
+    grid-column: 2/5;  
+}
+
+.box4 {
+    background-color: purple;
+    padding: 10px;
+    grid-row: 5/8;
+    grid-column: 1;  
+}

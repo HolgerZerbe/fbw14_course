@@ -1,0 +1,27 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    color: antiquewhite;
+    height: 100vH;
+
+}
+
+.header {
+    height: 60px;
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.height90 {
+    height: 90%;
+}

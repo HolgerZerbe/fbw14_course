@@ -1,0 +1,1 @@
+"\"// Die Funktion ist von außen verfügbar \\n// und wird als einzige Funktion exportiert.\\n// Alles, was module.export zugewiesen wird, \\n// wird exportiert \\n\\n\\nmodule.exports = () => {\\n    hallo.log(\\\"Hallo von greet1.js\\\");\\n} \""

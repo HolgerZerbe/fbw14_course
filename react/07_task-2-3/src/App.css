@@ -1,0 +1,45 @@
+html body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+
+}
+
+.header {
+  box-sizing: border-box;
+  border: 1px solid darkgreen;
+  background-color: yellowgreen;
+  height: 120px;
+  width: 1000px;
+  margin: 0 auto; 
+  line-height: 120px;
+  font-size: 50px;  
+  text-transform: uppercase;
+  text-align: center; 
+}
+
+.main {
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid darkgreen;
+  background-color: yellowgreen;
+  min-height: 700px;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid darkgreen;
+  background-color: yellow;
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;  
+  text-transform: uppercase;
+}

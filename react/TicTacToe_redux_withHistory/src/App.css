@@ -1,0 +1,142 @@
+html body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
+
+.complete {
+  padding: 10px;
+  background: rgb(197, 201, 204);
+  min-height:100%;  
+}
+
+.complete h1 {
+  text-align: center;
+  margin: 30px 0 50px 0; 
+  text-shadow: -3px -3px 5px red;
+
+}
+
+.reduxInHeadline {
+  color: gold;
+  text-shadow: 3px 3px 5px red;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.board {
+  width: 50%;
+  min-width: 460px;
+  max-height: 460px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  color: black;
+  width: 150px;
+  min-width: 30%;
+  height: 150px;
+  border-right: 5px solid olive;
+  border-bottom: 5px solid olive;
+  line-height: 150px;
+  font-size: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cell:nth-child(3n +3) {
+  border-right: none;
+}                    
+
+.cell:nth-child(1n +7) {
+  border-bottom: none;
+}
+
+.cell:first-child {
+  border-radius: 20px 0 0 0;
+}
+
+.cell:nth-child(3n) {
+  border-radius: 0 20px 0 0;
+}
+
+.cell:nth-child(6n) {
+  border-radius: 0;
+}
+
+.cell:nth-child(7) {
+  border-radius: 0 0 0 20px;
+}
+
+.cell:nth-child(9) {
+  border-radius: 0 0 20px 0;
+}
+
+.info {
+  width: 30%;
+}
+
+.resetBtn{
+  font-size: 20px;
+  display: block;
+  margin: 0 0 15px 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: red;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.miniboardPlusBtn {
+  display: flex;
+  line-height: 50px;
+}
+
+
+.miniboard {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: darkslategray;
+  border-radius: 4px;
+}
+
+.minicell {
+  color: white;
+  width: 15px;
+  height: 15px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  line-height: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.minicell:nth-child(3n +3) {
+  border-right: none;
+}                    
+
+.minicell:nth-child(1n +7) {
+  border-bottom: none;
+}
+
+.backBtn {
+  height: 30px;
+  margin: 10px 0 0 10px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(209, 110, 52);
+  color: whitesmoke;  
+  cursor: pointer;
+}

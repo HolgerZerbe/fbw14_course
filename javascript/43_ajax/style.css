@@ -1,0 +1,15 @@
+table, th, td {
+    margin-top: 20px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+    border-collapse: collapse;
+ }
+ 
+ tr:nth-child(even) {
+    background-image: linear-gradient(to right, rgb(102, 219, 240), rgb(16, 77, 112));
+ }
+ tr:nth-child(odd) {
+    background-image: linear-gradient(to right, rgb(16, 77, 112),rgb(102, 219, 240));
+ }

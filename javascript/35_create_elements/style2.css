@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    height: 300px;
+    width: 100%;
+    background: orange;
+
+}
+
+#walking {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+}
+
+#createTask {
+    margin: 50px 0 0 50px;
+    font-size: 30px;
+}
+
+#createTaskInput {
+    height: 50px;
+    width: 400px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+#createTaskBtn {
+    display: block;
+    height: 50px;
+    font-size: 30px;
+    background: aquamarine;
+    padding: 5px;
+    margin-top: 5px;    
+}
+
+
+.todolistHeadline {
+    margin: 50px 0 0 50px;
+    font-size: 30px;
+}
+
+.listitemStyle {
+    margin: 10px 10px 0 50px;
+    font-size: 25px;
+    background: darkred;
+    color: black;
+    padding-left: 5px;
+
+}
+
+.btnRight {
+    float: right;   
+    background: darkred;
+    font-size: 25px;
+    padding-right: 5px; 
+    border-style: none;
+    color: white;
+    cursor: pointer;    
+}
+
+.btn-right::after {
+    clear:both;
+}
+
+.colorWhite {
+    color: white;
+}

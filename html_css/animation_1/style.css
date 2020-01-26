@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    /*animation-iteration-count: infinite;  /* kann auch absoluter Wert angegeben werden*/
+    text-align: center;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes example {
+    from {
+        background-color: red;  
+        width: 100px;
+    }
+    to {
+        background-color: yellow;
+        width: 200px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        font-size: 2em;
+        padding-top: 81px;
+        transform: rotate(360deg);
+    }
+}
+

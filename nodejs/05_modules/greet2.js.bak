@@ -1,0 +1,1 @@
+"\"const greet = () => {\\n    hallo.log(`Hallo von greet2.js`);\\n}\\n\\nmodule.exports.greet = greet;\\n\\n// module.exports sieht so aus:\\n\\n// {\\n//     greet:\\n// }\""

@@ -1,0 +1,1 @@
+"\"const greet = () => {\\n    hallo.log(`hallo von greet3.js`);\\n}\\n\\nmodule.exports = {\\n    greetAlsKey: greet\\n}\""

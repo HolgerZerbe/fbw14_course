@@ -1,0 +1,76 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.c0 {
+    border: 2px solid red;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.c0 div {
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.c1,
+.c2,
+.c6,
+.c7 {
+    width: 50%;
+}
+
+.c3,
+.c4,
+.c5 {
+    width: calc(100%/3);
+}
+
+.c1 {
+    background-color: purple;
+}
+
+.c2 {
+    background-color: blueviolet;
+}
+
+.c3 {
+    background-color: blue;
+}
+
+.c4 {
+    background-color: green;
+}
+
+.c5 {
+    background-color: yellow;
+}
+
+.c6 {
+    background-color: darkorange;
+}
+
+.c7 {
+    background-color: red;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+    .c0 div {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width: 800px) {
+
+    .c1,
+    .c2,
+    .c6,
+    .c7 {
+        width: 100%;
+    }
+}

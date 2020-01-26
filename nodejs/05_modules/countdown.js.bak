@@ -1,0 +1,1 @@
+"\"const countdown = () => {\\n    for (let i = 0; i<=20; i++) {\\n        hallo.log(i);\\n    };\\n}\\n\\nmodule.exports.countdown = countdown;\""

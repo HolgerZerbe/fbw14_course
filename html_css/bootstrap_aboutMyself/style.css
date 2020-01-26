@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+
+}
+
+html body {
+    height: 100%;
+}
+
+.header {
+    height: 60px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(79, 34, 243), rgb(26, 10, 103));
+
+}
+
+.header>div,
+.header>nav {
+    box-sizing: border-box;
+    max-height: 30px;
+}
+
+.header>div {
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.form-control,
+.btn {
+    height: 20px;
+    padding: 0 20px;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.carousel-inner img {
+    height: 600px;
+}
+
+.caroussel-container {
+
+    text-align: center;
+    background-image: linear-gradient(rgb(79, 34, 243), rgb(26, 10, 103));
+}
+
+#carouselExampleSlidesOnly {
+    margin: 0 auto;
+}
+
+.card-container {
+    background-image: linear-gradient(rgb(79, 34, 243), rgb(26, 10, 103));
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.cards {
+    margin: 50px auto;
+    height: 100px;
+    background-image: linear-gradient(rgb(26, 10, 103), rgb(79, 34, 243));
+
+}
+
+.about-main,
+.contact-main {
+    width: 100%;
+    background-image: linear-gradient(rgb(79, 34, 243), rgb(26, 10, 103));
+    padding: 10px;
+}
+
+.about-main img {
+    height: 40%;
+    width: 40%;
+    float: right;
+}
+
+.about-main img {
+    margin: 5px;
+}
+
+.about-main p {
+    margin: 5px;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.btn-success {
+    color: black;
+}

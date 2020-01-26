@@ -1,0 +1,92 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+$color-primary: #f9ed69;
+$text-dark: #333;
+$color-main: #f08a5d;
+$color-hot: #b83b5e;
+$text-light: #eee;
+
+@mixin style-link($farbe) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $farbe;
+}
+
+@mixin clearfix {
+    &::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+}
+
+nav {
+    margin: 30px;
+    background-color: $color-primary;
+
+    @include clearfix;
+}
+
+.navigation {
+    list-style: none;
+    float: left;
+
+    li {
+        display: inline-block;
+        margin-left: 30px;
+
+        &:first-child {
+            margin-left: 0px;
+        }
+
+        a:link {
+            @include style-link($text-dark);
+        }
+    }
+}
+
+.buttons {
+    float: right;
+
+    .btn-main:link,
+    .btn-hot:link {
+        padding: 10px;
+        text-align: center;
+        display: inline-block;
+        @include style-link ($text-light);
+        border-radius: 100px;
+        width: 150px;
+    }
+
+    .btn-main {
+        &:link {
+            background-color: $color-main;
+        }
+
+        &:hover {
+            background-color: #b45643;
+        }
+
+        &:visited {
+            color: $text-light;
+        }
+    }
+
+    .btn-hot {
+        &:link {
+            background-color: $color-hot;
+        }
+
+        &:hover {
+            background-color: #e04b75;
+        }
+
+        &:visited {
+            color: $text-light;
+        }
+    }
+}

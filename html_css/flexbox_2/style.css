@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #BBB;
+}
+
+.first_div {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px auto 20px auto;
+}
+
+.input_field {
+    margin: auto 20px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+}
+
+input {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.second_div {
+    width: calc(100% - 50px);
+    background: white;
+    display: flex;
+    flex-flow: row;
+    padding: 0 25px;
+}
+
+.sidebar1 {
+    padding: 10px;
+    width: calc(20% - 20px);
+}
+
+.sidebar2 {
+    padding: 10px;
+    width: calc(20% - 20px);
+    order: 1;
+}
+
+.main_column {
+    padding: 10px;
+    width: calc(60% - 20px);
+}
+
+.third_div {
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+
+h2,
+h3 {
+    padding: 10px 0;
+}
+
+
+
+.feature1 {
+    padding: 20px;
+    width: 25%;
+    background-color: #C0DBE2;
+
+}
+
+.feature2 {
+    padding: 20px;
+    width: 25%;
+    background-color: #cdf1c3;
+
+}
+
+.feature3 {
+    padding: 20px;
+    width: 25%;
+    background-color: #ccb9da;
+
+}
+
+.fourth_div {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.single_number {
+    color: white;
+    font-size: 50px;
+    width: 10%;
+    background-color: #990b47;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.last_div {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.textbox {
+
+    height: 600px;
+    width: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.textbox_left {
+    height: 100%;
+    max-height: 580px;
+    width: calc(50% - 20px);
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+.textbox_A {
+    height: 50%;
+    width: 50%;
+    background-color: #C0DBE2;
+}
+
+.textbox_B {
+    height: 50%;
+    width: 50%;
+    background-color: #cdf1c3;
+}
+
+.PLZ {
+
+    font-size: 50px;
+    height: 400px;
+    line-height: 400px;
+    width: 50%;
+    background: black;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/*.PLZ p {
+    padding: auto 0;
+}*/

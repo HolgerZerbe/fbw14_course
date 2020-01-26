@@ -1,0 +1,134 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.container {
+  background-image: url(../images.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+nav {
+  margin: 30px; }
+  nav::after {
+    clear: both;
+    content: "";
+    display: table; }
+  nav .navigation {
+    list-style: none;
+    float: right; }
+    nav .navigation ul {
+      padding-inline-start: 0; }
+    nav .navigation li {
+      display: inline-block;
+      margin-right: 30px;
+      padding: 10px;
+      font-size: 30px;
+      background-color: rgba(255, 255, 255, 0.4); }
+      nav .navigation li a:link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #333; }
+      nav .navigation li a:visited {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #333; }
+
+.main {
+  height: 90vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  .main .foto {
+    width: 30%;
+    height: 250px;
+    border: 3px solid black;
+    margin: 5px;
+    background-color: greenyellow; }
+  .main .div-link {
+    width: 30%;
+    height: 250px;
+    border: 3px solid black;
+    margin: 5px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 250px; }
+  .main a {
+    font-size: 25px; }
+  .main a:link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333; }
+  .main a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333; }
+
+.hobbies-main {
+  height: 90%; }
+  .hobbies-main img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px; }
+  .hobbies-main .dog {
+    max-width: 1000px;
+    font-size: 25px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 0 auto; }
+
+.about-main {
+  width: 100%; }
+  .about-main img {
+    width: 50%;
+    float: right;
+    padding: 10px; }
+  .about-main .about-text {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px; }
+
+.skills-main h3 {
+  font-size: 30px;
+  text-align: center; }
+
+.skills-main ul {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0; }
+
+.skills-main li {
+  font-size: 25px; }
+
+@media screen and (max-width: 480px) {
+  nav {
+    margin: 0; }
+    nav .navigation {
+      display: flex;
+      flex-direction: column; }
+      nav .navigation li {
+        border-bottom: 1px solid black;
+        text-align: center; }
+        nav .navigation li a {
+          display: block;
+          font-size: 30px; }
+  .main {
+    flex-direction: row; }
+    .main .foto {
+      width: 90%; }
+    .main .div-link {
+      width: 90%; }
+  .about-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+  img {
+    margin: 0 auto; }
+  .hobbies-main .dog {
+    margin: 0 auto;
+    max-width: 300px; }
+  .hobbies-main img {
+    max-width: 300px; } }

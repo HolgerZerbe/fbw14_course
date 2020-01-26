@@ -1,0 +1,174 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    top: 0;
+    color: #f1f1f1;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding: 20px;
+}
+
+.navB {
+    color: #f1f1f1;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding: 20px;
+
+}
+
+.content p {
+    margin-top: 50px;
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    background-color: #01fa01;
+    color: black;
+}
+
+.active {
+    background-color: #339933;
+    color: black;
+    text-decoration: underline;
+}
+
+h1 {
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.text {
+    background: black;
+    color: aliceblue;
+    padding: 30px;
+    height: auto;
+    font-size: 20px;
+}
+
+.parallax1 {
+    background-image: url("images/Bild2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.parallax2 {
+    background: url('images/Bild4.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.parallax3 {
+    background: url('images/Bild3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.logo {
+    min-width: 70%;
+    padding-left: 30px;
+    margin: 30px auto;
+
+}
+
+.inputfield {
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    width: 70%;
+}
+
+.inputfield input, .inputfield textarea {
+    padding: 5px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.plz_ort {
+    display: flex;
+    flex-flow: row;
+
+}
+
+.plz_ort input {
+    width: 50%;
+}
+
+.btn {
+    width: 200px;
+    background-color: #339933;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+
+
+.footer_1,
+.footer_2 {
+    width: 100%;
+    bottom: 0;
+    color: #f1f1f1;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.footer_1 {
+    position: fixed;
+}
+
+.footer_2 {
+    position: relative;
+}
+
+.footer_1 a,
+.footer_2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer_1 a:hover,
+.footer_2 a:hover {
+    background: antiquewhite;
+}

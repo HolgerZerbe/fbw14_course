@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+li {
+    background-color: blue;
+    color:whitesmoke;
+    height: 100px;
+    width: 300px;
+    font-size: 35px;
+    line-height: 100px;
+    padding-left: 10px;
+}
+
+li:hover {
+    background-color: rgb(40, 193, 240);
+    cursor: pointer;
+}
+
+
+.movie {
+    margin: 25px 0 0 30px;
+    width: 70%;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.foto {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.description { 
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.rocky {
+    display: none;
+}
+
+.foto1   {
+
+    background-image: url(./images/rocky1.jpeg);
+    background-size: cover; 
+}
+.foto2 {
+    background-image: url(./images/rocky2.jpeg);
+    background-size: cover; 
+}
+.foto3 {
+    background-image: url(./images/rocky3.jpeg);
+    background-size: cover; 
+}
+.foto4 {
+    background-image: url(./images/rocky4.jpeg);
+    background-size: cover; 
+}
+.foto5 {
+    background-image: url(./images/rocky5.jpeg);
+    background-size: cover; 
+}
+
+.active {
+    background-color: red;
+}
+
+.angezeigt {
+    display: block;
+
+
+}

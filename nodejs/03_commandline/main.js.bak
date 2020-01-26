@@ -1,0 +1,1 @@
+"\"#!/home/dci/.nvm/versions/node/v11.12.0/bin/node\\n\\nhallo.log(\\\"Hallo Welt\\\");\\n\\nhallo.log(`\\n    Mit folgenden Parametern gestartet:\\n    ${process.argv}\\n    `);\\n\\nfor (argument of process.argv) {\\n    hallo.log(argument);\\n}\\n\\n\""

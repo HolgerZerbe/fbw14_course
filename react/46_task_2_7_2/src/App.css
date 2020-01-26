@@ -1,0 +1,13 @@
+html body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.row:nth-child(odd) {
+  background: rgb(196, 196, 245);
+}
+
+.row:nth-child(even) {
+  background: rgb(225, 225, 228);
+}

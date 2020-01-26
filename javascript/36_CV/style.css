@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+fieldset {
+    margin: 5px;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    margin: 10px;
+
+}
+#favcolor1, #favcolor2 {
+    display: inline;
+
+}
+
+textarea {
+    font-size: 25px;   
+    padding: 5px; 
+}
+
+h3 {
+    margin: 10px 10px 30px 10px;
+    color: blue;
+}
+
+.skills {
+    display: inline;    
+}
+button {
+    margin: 5px 0 0 5px;
+}
+
+.lebenslauf {
+    width: 50%;
+    margin: 0 auto;
+    background: lightcoral;
+    min-height: 1000px;
+}
+
+.lebenslauf h1 {
+    padding: 50px 10px 0 10px;
+    text-align: center;
+}
+
+.lebenslauf h2 {
+    padding-top: 100px;
+    font-size: 25px;
+    text-align: center; 
+}
+
+.lebenslauf h4 {
+    padding: 20px 10px 0 10px;
+    font-size: 25px;
+    text-align: center; 
+}
+
+
+
+.foto {
+    margin: 50px auto;
+    width: 25%;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+.removebtn {
+    margin: 5px 5px 0 0;
+    float: right;
+    border: none;
+    background: transparent;    
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}

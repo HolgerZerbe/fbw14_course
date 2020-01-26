@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>39_Wecker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h2 id="headline">Wecker</h2>
+        <div class="weckerIconClass"></div>
+    </div>
+
+    <div class="main">
+        <span id="weckerAnzeigenSpan">
+
+            <div id="wecker"></div>
+            <div class="input">
+                <button id="weckerStellen">Wecker stellen</button>
+                <button id="weckerAktivieren">Wecker aktivieren</button>
+            </div>
+        </span>
+
+
+        <span id="weckerStellenSpan">
+
+            <div class="weckerEingabe">
+             <input type="number" autofocus value="0" min=0 max=23 name="" id="weckStunden" required> :
+                <input type="number" value="0" min=0 max=59 name="" id="weckMinuten" required> :
+                <input type="number" value="0" min=0 max=59 name="" id="weckSekunden" required>
+            </div>
+
+            <div class="input">
+                <button id="zuruckUhr">Zurück zur Uhr</button>
+                <button id="alarmSpeichern">Alarmzeit speichern</button>
+            </div>
+        </span>
+        <span id="weckerAusschaltenSpan">
+
+            <div id="alarm">
+
+            </div>
+
+            <div class="input">
+                <button id="alarmStoppen">Stop</button>
+            </div>
+        </span>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

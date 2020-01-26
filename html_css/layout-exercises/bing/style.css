@@ -1,0 +1,168 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: blue;
+    height: 30px;
+    border: 1px solid black;
+
+}
+
+.left-nav,
+.right-nav {
+    width: 35%;
+    background-color: yellowgreen;
+    line-height: 30px;
+    text-align: center;
+}
+
+.btn-rn {
+    background-color: yellowgreen;
+    border-style: none;
+}
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: blue;
+    height: calc(100vh - 30px - 100px);
+    border: 1px solid black;
+    padding: 100px 95px 0 50px;
+}
+
+.logo,
+.text {
+    height: 40px;
+}
+
+.logo-top {
+    display: none;
+}
+
+.logo-main {
+    font-size: 40px;
+}
+
+form {
+    width: 85%;
+}
+
+.text {
+    width: 80%;
+    margin-left: 20px;
+}
+
+.three-btn {
+    padding-top: 300px;
+    text-align: right;
+}
+
+.btn-mathsym,
+.btn-info {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-style: none;
+}
+
+.btn-mathsym {
+    width: 50px;
+}
+
+.btn-info {
+    width: 90px;
+}
+
+footer {
+    box-sizing: border-box;
+    height: 100px;
+    border: 1px solid black;
+    background: blue;
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: yellowgreen;
+    height: 80%;
+    width: 15%;
+    margin: 10px 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        height: 50px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .left-nav {
+        display: none;
+    }
+
+    .logo-top {
+        display: block;
+        height: 48px;
+        font-size: 25px;
+        line-height: 48px;
+        width: 30%;
+        background-color: yellowgreen;
+        text-align: center;
+    }
+
+    .right-nav {
+        background-color: blue;
+        text-align: right;
+    }
+
+    .text-rn {
+        display: none;
+    }
+
+    .btn-rn {
+        height: 48px;
+        width: 30%;
+        background-color: yellowgreen;
+    }
+
+    .logo-main {
+        display: none;
+    }
+    form {
+        width: 100%;
+    }
+    .text {
+        width: 120%;
+        margin: 0;
+    }
+
+    .btn-mathsym {
+        display: none;
+    }
+
+    .btn-info {
+        width: 120%;
+        margin-top: 150px;
+    }
+
+    footer {
+        display: none;
+    }
+
+
+
+}
